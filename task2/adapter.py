@@ -45,7 +45,6 @@ class XMLWebServiceInvoker:
         # Make request to xml webservice with cunbr number
         # returns xml webservice response as string
         # IMPLEMENT ME PLZ!
-        #raise NotImplementedError
 
 class Adapter(Target):
     def __init__(self, adaptee):

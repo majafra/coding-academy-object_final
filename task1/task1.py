@@ -1,7 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
 
-
 def task1_solution():
     r = requests.get('https://coding-academy.pl/all_customers')
     return r
